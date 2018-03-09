@@ -3,10 +3,16 @@ import './TrackList.css';
 import Track from '../Track/Track'
 
 class TrackList extends React.Component {
+	constructor(props) {
+		super(props) 
+		this.state={}
+	}
   render() {
+	  let tracks = this.props.tracks ? this.props.tracks : [];
     return (
       <div className="TrackList">
-        {this.props.tracks.map(track => {
+	  {tracks.map(track => {
+
           return (
             <Track
               track={track}
