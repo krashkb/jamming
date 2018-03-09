@@ -1,6 +1,4 @@
 const clientID='b0d68b7c1cfa45d7b1f2576db3e82aef';
-
-const secret = 'a92531457bd7432782bdb0f9427f2c72';
 const redirectURI="http://localhost:3000";
 let accessToken='';
 
