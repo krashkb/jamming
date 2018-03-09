@@ -1,5 +1,5 @@
 const clientID='b0d68b7c1cfa45d7b1f2576db3e82aef';
-const redirectURI="http://localhost:3000";
+const redirectURI="https://kb-jamming.herokuapp.com/";
 let accessToken='';
 
 const Spotify = {
